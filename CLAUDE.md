@@ -35,8 +35,9 @@ The source document was a template full of `[Insert]` placeholders. Where they w
 - **Contact block** — the document had `[Insert company phone number]`, `[Insert company email]`,
   `[Insert physical or postal address]`, `[Insert website and social handles]`. On the user's
   instruction these were carried over from the *cleaning* company's profile:
-  `+254 700 123 456`, `info@bitutam.co.ke`, `www.bitutam.co.ke`, Nairobi Kenya.
-  **The phone number looks like a dummy.** Flagged to the user, not yet confirmed.
+  `info@bitutam.co.ke`, `www.bitutam.co.ke`, Nairobi Kenya. The original dummy phone was replaced
+  on 2026-10-02 with the real number the user supplied: `+254 720 447 964`.
+  `info@bitutam.co.ke` is forwarded by ImprovMX (MX on HostAfrica DNS) to jthuranira@icloud.com.
 - **Cost-structure table** — the document's `[Insert]` amount cells render as "Per quotation".
 - **Project references** — the document says specific client names "can be inserted here where
   disclosure is appropriate". Rendered as "available on request". No client names are claimed

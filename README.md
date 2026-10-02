@@ -50,7 +50,7 @@ green brand palette from its own profile deck.
 
 - Copy is taken verbatim from the company profile document.
 - The source document had `[Insert]` placeholders for all contact details. The values used here
-  (`+254 700 123 456`, `info@bitutam.co.ke`, Nairobi) were carried over from the sister company's
+  (`+254 720 447 964`, `info@bitutam.co.ke`, Nairobi) were carried over from the sister company's
   profile. **The phone number looks like a placeholder** — confirm before promoting the site.
 - The cost-structure table renders "Per quotation" in place of the document's `[Insert]` cells.
 - All photography is license-free stock (Unsplash). The source document contained no images. There
