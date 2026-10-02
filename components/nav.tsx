@@ -11,6 +11,9 @@ const links = [
   { href: "#why", label: "Why Us" },
 ];
 
+// Sister business (cleaning, gardening, landscaping) — styled in its own green so it reads as a separate site.
+const cleaningUrl = "https://bitutam-cleaning.vercel.app";
+
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
@@ -51,6 +54,13 @@ export default function Nav() {
         </a>
 
         <nav className="hidden items-center gap-7 lg:flex">
+          <a
+            href={cleaningUrl}
+            className="flex items-center gap-2 rounded-full border border-[#7bc144] bg-[#7bc144]/15 px-4 py-1.5 font-display text-sm font-semibold uppercase tracking-wider text-[#a5dc78] transition-colors hover:bg-[#7bc144] hover:text-[#062615]"
+          >
+            <span className="h-1.5 w-1.5 rounded-full bg-current" />
+            Cleaning
+          </a>
           {links.map((l) => (
             <a
               key={l.href}
@@ -86,6 +96,14 @@ export default function Nav() {
       {open && (
         <nav className="border-t border-white/10 lg:hidden">
           <div className="mx-auto max-w-7xl px-5 pb-6 pt-2 sm:px-8">
+            <a
+              href={cleaningUrl}
+              onClick={() => setOpen(false)}
+              className="mt-3 mb-1 flex items-center justify-center gap-2 rounded-full border border-[#7bc144] bg-[#7bc144]/15 py-3 font-display font-semibold uppercase tracking-wider text-[#a5dc78]"
+            >
+              <span className="h-1.5 w-1.5 rounded-full bg-current" />
+              Cleaning &amp; Landscaping
+            </a>
             {links.map((l) => (
               <a
                 key={l.href}
