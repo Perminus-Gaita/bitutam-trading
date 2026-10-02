@@ -4,7 +4,7 @@
 
 Marketing site for the **trading / procurement / supply** business: construction materials, bitumen,
 solar equipment, general merchandising.
-Live at https://bitutam-trading.vercel.app · repo `Perminus-Gaita/bitutam-trading`.
+Live at https://bitutam.co.ke (also https://bitutam-trading.vercel.app) · repo `Perminus-Gaita/bitutam-trading`.
 
 There is a **sister site** for a completely different Bitutam business — cleaning, gardening and
 landscaping — at https://bitutam-cleaning.vercel.app (`Perminus-Gaita/bitutam-cleaning`). The two

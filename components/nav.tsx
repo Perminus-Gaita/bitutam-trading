@@ -12,7 +12,7 @@ const links = [
 ];
 
 // Sister business (cleaning, gardening, landscaping) — styled in its own green so it reads as a separate site.
-const cleaningUrl = "https://bitutam-cleaning.vercel.app";
+const cleaningUrl = "https://cleaning.bitutam.co.ke";
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false);
